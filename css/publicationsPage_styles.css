@@ -39,7 +39,7 @@ h1, h2 {
     vertical-align: baseline; /* 或 baseline/top，根据需要调整 */
     position: relative;
     top: -1px;  /* 上移 2 像素，可根据需求微调 */
-    color: F8D794;
+    color: white;
     border: none;
     padding: 6px 12px;
     border-radius: 15px;
@@ -58,8 +58,8 @@ h1, h2 {
 /* ------------------ Publications layout ----------------------- */
 /* publication, looks like citation */
 .publication-item {
-    font-size: 16px;
-    line-height: 1.3;
+    font-size: 17px;
+    line-height: 1.5;
     margin-top: 20px;
 }
 /* Back button */
