@@ -69,9 +69,6 @@ h2 {
 }
 /* Back button */
 .back-container {
-    position: fixed;
-    top: 100px;
-    left: 150px;
     text-align: center; /* 容器居中对齐 */
 }
 .back-button {
