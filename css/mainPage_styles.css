@@ -21,7 +21,7 @@ body, html {
 }
 /* Min-Zhi Jiang */
 header h1 {
-  font-family: "Bitcount Prop Single", system-ui; /* 使用 Bitcount Prop Single 字体 */
+  font-family: 'Montserrat', sans-serif; /* Keep Montserrat */
   font-size: 66px; /* 3rem = 48px */
   font-weight: 750;
   margin: 15px 0 12px 0; /* 上 12px，下 20px，左右 0px */
@@ -47,7 +47,7 @@ header p {
 
 /* three button nagivate to about me, projects, publications */
 .buttons a {
-  font-family: 'Montserrat', sans-serif; /* Keep Montserrat */
+  font-family: "Bitcount Prop Single", system-ui; /* 使用 Bitcount Prop Single 字体 */
   display: inline-block;
   margin: 40px 30px; /* 1rem = 16px 上下外边距 */
   padding: 10px 20px 10px 20px; /* up left bottom right */
