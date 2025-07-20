@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: linear-gradient(135deg, #F8D794, #BB6830);
-    background-attachment: fixed;
+    background: url('../images/mainBG2.jpg') no-repeat center center fixed;
+    background-size: cover;
     animation: fadeIn 1s ease-in-out;
 }
 
