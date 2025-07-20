@@ -102,7 +102,7 @@ p::before {
 .talk-item {
     font-size: 15px;
     line-height: 1.4;
-    margin: 20px;
+    margin: 0 0 20px 0;   /* ← 改：移除四边20px，只保留底部间距 */
     padding-left: 0;
 }
 /* Annual Meeting: 仅字体颜色 */
