@@ -98,6 +98,10 @@ p::before {
     font-weight: bold;
 }
 /* page back to home buttom */
+.back-container {
+    margin: 10px auto 40px auto;
+    text-align: center; /* 容器居中对齐 */
+}
 .back-button {
     display: inline-block;
     padding: 8px 10px;
