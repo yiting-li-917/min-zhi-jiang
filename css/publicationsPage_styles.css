@@ -40,7 +40,7 @@ h2 {
 
 /* Download PDF button */
 .download-button {
-    background-color: #BB6830;
+    background-color: #F8D794;
     vertical-align: baseline; /* 或 baseline/top，根据需要调整 */
     position: relative;
     top: -1px;  /* 上移 2 像素，可根据需求微调 */
@@ -52,8 +52,8 @@ h2 {
     transition: background 0.3s;
 }
 .download-button:hover {
-    background-color: #F8D794;
-    color: #BB6830;
+    background-color: #BB6830;
+    color: #F8D794;
 }
 .publications .download-button {
     padding: 3px 8px;
