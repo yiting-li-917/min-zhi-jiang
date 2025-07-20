@@ -132,17 +132,21 @@ footer {
 @media (max-width: 768px) {
     .projects-publications {
         flex-direction: column;
-        padding: 0 10px;
-    }
-    .projects-publications .cv-section {
-        flex: 1 1 100%;
-        padding: 15px;
+        padding: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.1);
+        border-radius: 8px;
         margin-bottom: 20px;
     }
-    .link-button, .download-button, .back-button {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin: 8px 0;
+    .download-button {
+        padding: 4px 8px;
+        font-size: 0.7rem; /* 更小按钮尺寸 */
+        margin: 4px; /* 增加间距防止拥挤 */
     }
+    .back-button {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        padding: 8px 16px;
+        font-size: 14px;
 }
