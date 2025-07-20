@@ -51,14 +51,14 @@ h4 .details-button {
     padding: 3px 6px;
     border-radius: 15px;
     background-color: #496246;
-    color: white;
+    color: F8D794;
     border: none;
     text-decoration: none;
     transition: background 0.3s;
 }
 
 h4 .details-button:hover {
-    background-color: #97a78c;
+    background-color: #F8D794;
     color: #496246;
 }
 
@@ -87,7 +87,7 @@ p {
     padding: 8px 18px;
     border-radius: 30px; /* 更圆的按钮 */
     background: #496246; 
-    color: white;
+    color: F8D794;
     font-size: 12px;
     font-weight: 550;
     text-decoration: none;
@@ -98,8 +98,8 @@ p {
 
 .download-cv:hover,
 .link-button:hover {
-    background: #97a78c;
-    color: #2f3e2f;
+    background: #F8D794;
+    color: #496246;
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 悬停更立体 */
 }
@@ -175,7 +175,7 @@ p {
     transition: background 0.3s, transform 0.3s;
 }
 .back-button:hover {
-    background-color: #dfeae9;
+    background-color: #F8D794;
     color: #BB6830;
     font-weight: 500;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
@@ -190,7 +190,7 @@ p {
     right: 20px;
     border: none;
     outline: none;
-    background-color: #496246;
+    background-color: #BB6830;
     color: white;
     cursor: pointer;
     padding: 10px 15px;
@@ -199,8 +199,8 @@ p {
     transition: background 0.3s, transform 0.3s;
 }
 #scrollTopBtn:hover {
-    background-color: #dfeae9;
-    color: #496246;
+    background-color: #F8D794;
+    color: #BB6830;
     font-weight: 300;
     transform: scale(1.1);
 }
