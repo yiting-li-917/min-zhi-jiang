@@ -104,7 +104,11 @@ p::before {
     line-height: 1.4;
     margin-bottom: 10px;
 }
-
+/* Annual Meeting: 仅字体颜色 */
+.meeting-text {
+    color: #BB6830;      /* 橘色字体 */
+    font-weight: 600;
+}
 /* Conference Badge: 橘色边框 + 透明背景 */
 .conference-badge {
     display: inline-block;
@@ -118,11 +122,6 @@ p::before {
     margin-left: 0px;
     white-space: nowrap;         /* 防止换行 */
     transition: all 0.3s ease;
-}
-
-.conference-badge:hover {
-    background-color: #BB6830;   /* 悬停时填充橘色 */
-    color: #fff;                 /* 文字变白 */
 }
 
 /* Back to Home Button */
