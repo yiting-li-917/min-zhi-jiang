@@ -18,7 +18,7 @@
             <h3>Jun 2023 - Present</h3>
             <h4>
                 Developing Pipeline for Analyzing Next Generation Cut & Tag Technology
-                <a href="javascript:void(0);" class="details-button" data-img="images/project1.jpg">Details</a>
+                <a href="javascript:void(0);" class="details-button" data-img="projects/project_summary_V-surrogate.jpg">Details</a>
             </h4>
             <p>Developing peak calling method for next generation Cut & Tag technology which is able to measure multiple targets simultaneously</p>
             <p>Analyzing the signals of epigenomic biomarker pairs in different genomic bins.</p>
@@ -145,6 +145,28 @@
       function scrollToTop() {
           window.scrollTo({ top: 0, behavior: 'smooth' });
       }
+      /* click button, display figure */
+      document.addEventListener('DOMContentLoaded', function () {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const detailsButtons = document.querySelectorAll('.details-button');
+    
+        detailsButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const imgSrc = button.getAttribute('data-img');
+                modalImg.src = imgSrc;
+                modal.style.display = 'block';
+            });
+        });
+    
+        // Close when clicking outside the image or the close button
+        window.closeModal = function(event) {
+            const modalContent = modal.querySelector('.modal-content');
+            if (!modalContent.contains(event.target) || event.target.classList.contains('close')) {
+                modal.style.display = 'none';
+            }
+        };
+    });
   </script>
 </body>
 </html>
