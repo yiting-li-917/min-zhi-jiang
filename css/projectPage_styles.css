@@ -13,7 +13,13 @@ a[href^="tel"] {
     pointer-events: none;
     cursor: default;
 }
-
+.projects-conference {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    margin: 20px auto 35px auto;
+    max-width: 1000px;
+}
 /* project period */
 h3 {
     color: #496246;
