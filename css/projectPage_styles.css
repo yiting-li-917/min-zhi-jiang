@@ -99,6 +99,7 @@ p::before {
 }
 /* page back to home buttom */
 .back-container {
+    width: 100%;
     margin: 10px auto 40px auto;
     text-align: center; /* 容器居中对齐 */
 }
