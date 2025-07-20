@@ -39,7 +39,7 @@ h1, h2 {
     vertical-align: baseline; /* 或 baseline/top，根据需要调整 */
     position: relative;
     top: -1px;  /* 上移 2 像素，可根据需求微调 */
-    color: white;
+    color: F8D794;
     border: none;
     padding: 6px 12px;
     border-radius: 15px;
