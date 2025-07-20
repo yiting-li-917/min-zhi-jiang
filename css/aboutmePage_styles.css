@@ -212,8 +212,25 @@ footer {
         font-size: 13px;
     }
 
-    .back-button {
-        padding: 8px 16px;
-        font-size: 14px;
+    .back-container {
+        margin: 20px 0;
+        text-align: center;
     }
+    .back-button {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        padding: 8px 8px;
+        font-size: 14px;
+        z-index: 1000;
+    }
+    .footer {
+        position: static;  /* 让footer变为文档流的一部分 */
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+        font-size: 8px;
+        margin-top: 5px;  /* 给footer和上面内容一些间距 */
+      }
 }
