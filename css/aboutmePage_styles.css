@@ -217,17 +217,17 @@ footer {
     .education h3,
     .work h3,
     .skills h3{
-        font-size: 14px;
+        font-size: 17px;
         margin-bottom: 10px;
     }
 
     .education h4,
     .work h4,
     .skills h4 {
-        font-size: 12px;
+        font-size: 14px;
     }
     .date {
-    font-size: 16px;
+    font-size: 14px;
     }
     .degree {
         font-size: 14px;
