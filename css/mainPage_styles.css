@@ -119,7 +119,7 @@ footer {
     align-items: center; /* 居中按钮 */
   }
   .buttons a {
-    width: 200px; /* 固定宽度 */
+    width: 180px; /* 固定宽度 */
     margin: 10px 0; /* 上下间距 */
     font-size: 16px; /* 稍微增大字体可读性 */
     padding: 12px 0; /* 垂直填充，让按钮更高 */
