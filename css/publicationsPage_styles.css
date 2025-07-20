@@ -19,7 +19,7 @@ a[href^="tel"] {
 
 .cv-container {
     background-color: rgba(255,255,255,0.5); /* 半透明白色背景 */
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
