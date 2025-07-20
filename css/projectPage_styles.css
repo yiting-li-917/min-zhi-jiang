@@ -13,12 +13,30 @@ a[href^="tel"] {
     pointer-events: none;
     cursor: default;
 }
+
+/* Projects & conference layout */
 .projects-conference {
     display: flex;
     gap: 20px;
     padding: 5px;
     margin: 20px auto 35px auto;
     max-width: 1000px;
+}
+
+.projects {
+    flex: 1.5; /* 占比1.5 */
+    background: rgba(255,255,255,0.7);
+    padding: 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.conference {
+    flex: 1; /* 占比1 */
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 /* project period */
 h3 {
