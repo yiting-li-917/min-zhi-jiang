@@ -20,7 +20,7 @@ a[href^="tel"] {
     gap: 20px;
     padding: 5px;
     margin: 20px auto 35px auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .projects, .conferences {
