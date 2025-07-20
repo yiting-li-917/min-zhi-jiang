@@ -201,11 +201,11 @@ footer {
         display: none; /* 隐藏文字 */
     }
     .contact-buttons a {
-        padding: 12px 0;
+        padding: 8px 0;
         font-size: 18px; /* Bigger icons */
         border-radius: 25px;
-        width: 55px;                 /* 按钮固定宽度 */
-        height: 45px;                /* 按钮固定高度 */
+        width: 60px;                 /* 按钮固定宽度 */
+        height: 40px;                /* 按钮固定高度 */
         display: flex;
         justify-content: center;
         align-items: center;
