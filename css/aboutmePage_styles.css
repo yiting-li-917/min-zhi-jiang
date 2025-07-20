@@ -70,7 +70,7 @@ header h2 {
     margin-bottom: 20px;
 }
 .edu-item h4,
-.work-item {
+.work-item h4 {
     font-size: 18px;
     margin: 5px 0;
     font-weight: 600;
