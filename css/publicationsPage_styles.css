@@ -58,8 +58,8 @@ h1, h2 {
 /* ------------------ Publications layout ----------------------- */
 /* publication, looks like citation */
 .publication-item {
-    font-size: 15px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.3;
     margin-top: 20px;
 }
 /* Back button */
