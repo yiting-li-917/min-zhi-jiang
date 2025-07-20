@@ -27,7 +27,7 @@ a[href^="tel"] {
     line-height: 1.5;
 }
 /* --------------------- font first! -------------------------- */
-/* header name */
+/* header name, currently disabled h1 */
 h1 {
     margin: 20px auto 10px auto;
     color: #BB6830;
