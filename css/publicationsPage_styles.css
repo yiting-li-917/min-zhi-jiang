@@ -133,11 +133,11 @@ footer {
     .publications {
         flex-direction: column;
         flex: 1 1 100%;
-        padding: 10px;
+        padding: 5px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         background: rgba(0,0,0,0.1);
         border-radius: 8px;
-        margin-bottom: 20px;
+        margin: 10px 2px 40px 2px;
     }
     .download-button {
         padding: 4px 8px;
@@ -153,6 +153,9 @@ footer {
         font-size: 14px;
     .footer {
         position: static;  /* 让footer变为文档流的一部分 */
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
         margin-top: 20px;  /* 给footer和上面内容一些间距 */
       }
 }
