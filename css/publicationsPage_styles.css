@@ -78,6 +78,7 @@ h2 {
     border-radius: 22px;
     text-decoration: none;
     background-color: #F8D794;
+    border: 2px solid black;  /* 黑色边框 */
     color: white;
     font-weight: 500;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
@@ -99,7 +100,7 @@ h2 {
     right: 20px;
     border: none;
     outline: none;
-    background-color: #BB6830;
+    background-color: #F8D794;
     color: white;
     cursor: pointer;
     padding: 10px 15px;
@@ -108,8 +109,8 @@ h2 {
     transition: background 0.3s, transform 0.3s;
 }
 #scrollTopBtn:hover {
-    background-color: #F8D794;
-    color: #BB6830;
+    background-color: #BB6830;
+    color: #F8D794;
     font-weight: 300;
     transform: scale(1.1);
 }
