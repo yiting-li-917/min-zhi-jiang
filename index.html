@@ -15,7 +15,7 @@
         <h1>Min-Zhi Jiang</h1>
         <p>Biostatistic Scientist • Cat Lover</p>
       </header>
-  <!--
+  <!-- uncomment if you wanna add more introduction of your website
       <div class="intro">
         <p>- Over 10 years experience on biostatistics -</p>
         <p>- Capturing life through the lens -</p>
@@ -24,8 +24,9 @@
   <!-- Three buttons link to About Me, Projects, Publications -->
       <div class="buttons">
         <a href="aboutMe.html">About Me</a>
-        <a href="projects.html">Projects</a>
+        <a href="projects.html">Researches</a>
         <a href="publications.html">Publications</a>
+        <!-- you can add more buttons later, please refer to the correct sub html -->
       </div>
       
       <footer>
@@ -37,23 +38,6 @@
   <script>
     // automatically update the year of copyright
      document.getElementById('year').textContent = new Date().getFullYear();
-    // automatically update content, invoke updates.json. update json everytime
-    fetch('updates.json')
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById('update-container');
-        container.innerHTML = '';
-        data.forEach(update => {
-          const item = document.createElement('div');
-          item.className = 'update-item';
-          item.innerHTML = `Updated <strong>${update.category}</strong> – ${update.message}`;
-          container.appendChild(item);
-        });
-      })
-      .catch(error => {
-        document.getElementById('update-container').innerHTML = '<p>Could not load updates.</p>';
-        console.error('Error loading updates:', error);
-      });
   </script>
 </body>
 </html>
