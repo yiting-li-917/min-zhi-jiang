@@ -27,8 +27,13 @@ a[href^="tel"] {
     line-height: 1.5;
 }
 /* --------------------- font first! -------------------------- */
-/* header name, section name */
-h1, h2 {
+/* header name */
+h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/* section name */
+h2 {
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -66,7 +71,7 @@ h1, h2 {
 .back-container {
     position: fixed;
     top: 100px;
-    left: 100px;
+    left: 150px;
     text-align: center; /* 容器居中对齐 */
 }
 .back-button {
