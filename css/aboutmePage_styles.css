@@ -84,6 +84,10 @@ header h2 {
     font-weight: 500;
     color:#BB6830;
 }
+.job {
+    font-size: 18px;
+    font-weight: 500;
+}
 
 /* Back to Home Button */
 .back-container {
