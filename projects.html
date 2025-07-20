@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Researches</title>
+    <title>Research Experience</title>
     <meta name="format-detection" content="telephone=no"> <!-- 禁用iOS自动检测电话号码 -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Waiting+for+the+Sunrise&family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/projectPage_styles.css">
@@ -52,5 +52,33 @@
             </div>
         </div>
     </div>
-        
+
+ <!-- back to home button, botton on the screen -->
+  <div class="back-container">
+    <a href="index.html" class="back-button">Back to Home</a>
+  </div>
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+
+  <footer>
+      &copy; <span id="year"></span> Min-Zhi Jiang. All rights reserved.
+  </footer>
+
+  <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      window.onscroll = function() { scrollFunction(); };
+      function scrollFunction() {
+          const btn = document.getElementById("scrollTopBtn");
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+              btn.style.display = "block";
+          } else {
+              btn.style.display = "none";
+          }
+      }
+      function scrollToTop() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+  </script>
+</body>
+</html>
         
