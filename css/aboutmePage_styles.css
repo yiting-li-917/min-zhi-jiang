@@ -189,26 +189,26 @@ footer {
         font-size: 14px;
         line-height: 1.0;
     }
-
+/* button */
     .contact-buttons {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 四列 */
-        gap: 5px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
     }
 
     .contact-buttons a {
-        padding: 12px 0;       /* 垂直居中图标 */
-        font-size: 18px;        /* icon 更大 */
-    }
-
-    .contact-buttons a i {
-        margin-right: 0;        /* 移除文字间距 */
+        padding: 12px 0;
+        font-size: 20px;  /* icon 更大 */
     }
 
     .contact-buttons .btn-text {
-        display: none;          /* 隐藏文字 */
+        display: none !important; /* 隐藏文字 */
     }
 
+    .contact-buttons a i {
+        margin-right: 0;  /* icon 居中 */
+    }
+/*----- */
     section {
         padding: 15px;
     }
