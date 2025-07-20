@@ -6,7 +6,7 @@ body, html {
     background-size: cover;
     color: #333;
 }
-/* 禁用数字链接样式 */
+
 a[href^="tel"] {
     text-decoration: none;
     color: inherit;
@@ -14,48 +14,49 @@ a[href^="tel"] {
     cursor: default;
 }
 
-/* Projects & conference layout */
+/* Projects & Conferences Layout */
 .projects-conferences {
     display: flex;
     gap: 20px;
     padding: 5px;
     margin: 20px auto 35px auto;
-    max-width: 100px;
+    max-width: 1000px;
 }
 
-.projects {
-    flex: 1.5; /* 占比1.5 */
-    background: rgba(255,255,255,0.75);
-    padding: 20px 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.conferences {
-    flex: 1; /* 占比1 */
+.projects, .conferences {
+    flex: 1;
     background: rgba(255,255,255,0.75);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
-/* project period */
+
+.projects { flex: 1.5; }
+.conferences { flex: 1; }
+
+/* Titles */
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #BB6830;
+}
+
 h3 {
     color: #BB6830;
     font-size: 18px;
     font-weight: 600;
     font-style: italic;
-    margin-bottom: 5px;
+    margin: 20px 0 5px 0;
 }
 
-/* project name + details button */
 h4 {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 4px;
-    display: inline;
+    display: inline-block;
 }
 
-/* project details button */
 h4 .details-button {
     display: inline-block;
     margin-left: 4px;
@@ -69,27 +70,23 @@ h4 .details-button {
     background-color: #BB6830;
     border: none;
     color: white;
-    box-shadow: none;          /* 去掉阴影 */
     text-decoration: none;
-    transition: all 0.3s ease;       /* 平滑过渡 */
-    -webkit-tap-highlight-color: transparent;
+    transition: all 0.3s ease;
 }
-
 h4 .details-button:hover {
     background-color: #F8D794;
-    color: #fff; /* 更明显 */
+    color: #fff;
 }
 
-/* project bullet point */
+/* Paragraphs */
 p {
     font-size: 14px;
     margin: 4px 0;
-    line-height: 1.2;
+    line-height: 1.4;
     text-indent: -2px;
     padding-left: 15px;
     position: relative;
 }
-
 p::before {
     content: "•";
     position: absolute;
@@ -97,32 +94,31 @@ p::before {
     color: inherit;
     font-weight: bold;
 }
-/* page back to home buttom */
+
+/* Back to Home Button */
 .back-container {
     width: 100%;
-    margin: 10px auto 40px auto;
-    text-align: center; /* 容器居中对齐 */
+    text-align: center;
+    margin: 20px 0 40px 0;
 }
 .back-button {
     display: inline-block;
-    padding: 8px 10px;
+    padding: 8px 12px;
     border-radius: 22px;
     text-decoration: none;
     background-color: #F8D794;
     color: #BB6830;
     font-weight: 550;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background 0.3s, transform 0.3s;
 }
 .back-button:hover {
     background-color: #BB6830;
     color: #F8D794;
-    font-weight: 550;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
     transform: scale(1.05);
 }
 
-/* Scroll to top button */
+/* Scroll to Top Button */
 #scrollTopBtn {
     display: none;
     position: fixed;
@@ -141,13 +137,12 @@ p::before {
 #scrollTopBtn:hover {
     background-color: #BB6830;
     color: #F8D794;
-    font-weight: 300;
     transform: scale(1.1);
 }
 
+/* Footer */
 footer {
-    position: static;  /* 让footer变为文档流的一部分 */
-    bottom: 0;
+    position: static;
     width: 100%;
     padding: 8px 0;
     font-size: 10px;
@@ -162,56 +157,21 @@ footer {
     .projects-conferences {
         flex-direction: column;
         padding: 10px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         background: rgba(0,0,0,0.1);
         border-radius: 8px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        max-width: 95%;
     }
     .projects, .conferences {
         flex: 1 1 100%;
         margin-bottom: 20px;
         padding: 15px;
     }
-    .projects-conferences h2 {
-        font-size: 20px;
-    }
-    /* project period */
-    h3 {
-        font-size: 16px;
-    }
-    /* project name + details button */
-    h4 {
-        font-size: 14px;
-    }
-    h4 .details-button {
-        padding: 2px 5px; /* 手机端更小 */
-        font-size: 0.6rem; /* 缩小字体 */
-        margin: 4px; /* 增加间距防止拥挤 */
-    }
-    /* publication, looks like citation */
-    .publication-item {
-        font-size: 14px;
-    }
-    .download-button {
-        padding: 4px 8px;
-        font-size: 0.7rem; /* 更小按钮尺寸 */
-        margin: 4px; /* 增加间距防止拥挤 */
+    .back-container {
+        margin: 20px 0;
+        text-align: center;
     }
     .back-button {
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 15px;
         padding: 8px 16px;
         font-size: 14px;
-    }  
-    .footer {
-        position: static;  /* 让footer变为文档流的一部分 */
-        bottom: auto !important;
-        left: auto !important;
-        right: auto !important;
-        width: 100%;
-        margin-top: 10px;  /* 给footer和上面内容一些间距 */
-        font-size: 8px;
     }
 }
