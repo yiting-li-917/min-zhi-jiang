@@ -187,17 +187,17 @@ footer {
 
     .contact-buttons {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
-        gap: 8px;
-        max-width: 400px;
-        margin: 8px auto;
+        grid-template-columns: repeat(2, auto); /* 两列按钮宽度由内容决定 */
+        justify-content: center;               /* 两列居中 */
+        gap: 6px;                              /* 减小列间距 */
+    }
+    .contact-buttons a {
+        min-width: 120px;  /* 给按钮一个最小宽度，保持一致的视觉效果 */
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
     }
 
-    .contact-buttons a {
-        width: 80%;
-        padding: 10px 0;
-        font-size: 12px;
-    }
     section {
         padding: 15px;
     }
@@ -208,6 +208,15 @@ footer {
     }
 
     h4 {
+        font-size: 14px;
+    }
+    .date {
+    font-size: 14px;
+    }
+    .degree {
+        font-size: 14px;
+    }
+    .job {
         font-size: 14px;
     }
 
