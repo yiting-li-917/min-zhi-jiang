@@ -195,19 +195,19 @@ footer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 6px;
+        max-width: 100%;
     }
-
+    .contact-buttons .btn-text {
+        display: none; /* 隐藏文字 */
+    }
     .contact-buttons a {
         padding: 12px 0;
-        font-size: 20px;  /* icon 更大 */
-    }
-
-    .contact-buttons .btn-text {
-        display: none !important; /* 隐藏文字 */
+        font-size: 20px; /* Bigger icons */
+        border-radius: 12px;
     }
 
     .contact-buttons a i {
-        margin-right: 0;  /* icon 居中 */
+        margin-right: 0;
     }
 /*----- */
     .education, .work, .skills {
