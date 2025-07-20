@@ -48,6 +48,10 @@ header h2 {
     transform: scale(1.05);
 }
 
+.contact-buttons i {
+    margin-right: 6px; /* space between icon and text */
+}
+
 /* 区块样式 */
 .education,
 .work {
