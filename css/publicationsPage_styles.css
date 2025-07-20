@@ -78,7 +78,7 @@ h2 {
     border-radius: 22px;
     text-decoration: none;
     background-color: #F8D794;
-    border: 2px solid black;  /* 黑色边框 */
+    border: 1px #111A19;  /* 墨绿色边框 */
     color: BB6830;
     font-weight: 500;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
