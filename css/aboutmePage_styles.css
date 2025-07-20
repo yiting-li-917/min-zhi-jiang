@@ -210,17 +210,21 @@ footer {
         margin-right: 0;  /* icon 居中 */
     }
 /*----- */
-    section {
+    .education, .work, .skills {
         padding: 15px;
     }
 
-    section h3 {
+    .education h3,
+    .work h3,
+    .skills h3{
         font-size: 14px;
         margin-bottom: 10px;
     }
 
-    section h4 {
-        font-size: 5px;
+    .education h4,
+    .work h4,
+    .skills h4 {
+        font-size: 14px;
     }
     .date {
     font-size: 16px;
