@@ -202,8 +202,13 @@ footer {
     }
     .contact-buttons a {
         padding: 12px 0;
-        font-size: 20px; /* Bigger icons */
-        border-radius: 12px;
+        font-size: 18px; /* Bigger icons */
+        border-radius: 25px;
+        width: 55px;                 /* 按钮固定宽度 */
+        height: 45px;                /* 按钮固定高度 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact-buttons a i {
