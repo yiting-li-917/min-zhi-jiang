@@ -18,14 +18,14 @@ header {
     margin-bottom: 30px;
 }
 header h1 {
-    font-size: 2.5rem;
+    font-size: 56px;
     margin-bottom: 5px;
     color: #BB6830;
 }
 header h2 {
-    font-size: 1.3rem;
+    font-size: 20rem;
     font-weight: 400;
-    color: #666;
+    color: #fff;
 }
 .contact-buttons {
     text-align: center;
@@ -51,20 +51,18 @@ header h2 {
 /* 区块样式 */
 .education,
 .work {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-bottom: 30px;
 }
 
 .education h3,
 .work h3 {
-    font-size: 1.6rem;
-    border-bottom: 2px solid #BB6830;
+    font-size: 28px;
     padding-bottom: 5px;
     margin-bottom: 15px;
-    color: #BB6830;
 }
 
 .edu-item,
@@ -78,12 +76,11 @@ header h2 {
     font-weight: 600;
 }
 .date {
-    font-weight: 700;
-    color: #BB6830;
+    font-weight: 500;
 }
 .degree {
-    font-weight: 700;
-    color: #444;
+    font-weight: 500;
+    color:#BB6830;
 }
 
 /* Back to Home Button */
