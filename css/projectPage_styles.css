@@ -14,7 +14,7 @@ a[href^="tel"] {
     cursor: default;
 }
 
-/* Projects & Conferences Layout */
+/* Projects Layout */
 .projects-conferences {
     display: flex;
     gap: 20px;
@@ -92,6 +92,25 @@ p::before {
     left: 0;
     color: inherit;
     font-weight: bold;
+}
+
+/* conference layout */
+.talk-item {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.conference-badge {
+    display: inline-block;
+    background-color: #BB6830; /* Badge 背景色 */
+    color: #fff;               /* 文字颜色 */
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    margin-left: 5px;
+    white-space: nowrap;       /* 防止换行 */
 }
 
 /* Back to Home Button */
