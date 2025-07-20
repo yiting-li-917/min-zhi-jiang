@@ -147,6 +147,9 @@ footer {
         border-radius: 8px;
         margin: 10px 1px 5px 1px;
     }
+    .publication-item {
+        font-size: 14px;
+    }
     .download-button {
         padding: 4px 8px;
         font-size: 0.7rem; /* 更小按钮尺寸 */
