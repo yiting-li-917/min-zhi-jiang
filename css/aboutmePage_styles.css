@@ -3,26 +3,14 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: url('../images/mainBG2.jpg') no-repeat center center fixed;
-    background-size: cover;
-    animation: fadeIn 1s ease-in-out;
+    background: linear-gradient(135deg, #F8D794, #BB6830);
+    background-attachment: fixed;
 }
 
 .container {
     max-width: 900px;
     margin: 50px auto;
     padding: 0 15px;
-    animation: slideUp 0.8s ease-out;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@keyframes slideUp {
-    0% { opacity: 0; transform: translateY(30px); }
-    100% { opacity: 1; transform: translateY(0); }
 }
 
 header {
