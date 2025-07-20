@@ -35,7 +35,7 @@ header h2 {
     display: inline-block;
     text-decoration: none;
     margin: 5px;
-    padding: 6px 6px;
+    padding: 6px 8px;
     border-radius: 16px;
     background-color: #BB6830;
     color: #fff;
@@ -107,7 +107,7 @@ header h2 {
 }
 .skill-item p {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.4;
 }
 
