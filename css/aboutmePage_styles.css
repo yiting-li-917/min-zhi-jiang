@@ -224,16 +224,16 @@ footer {
     .education h4,
     .work h4,
     .skills h4 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .date {
     font-size: 16px;
     }
     .degree {
-        font-size: 16px;
+        font-size: 14px;
     }
     .job {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .skill-item p {
