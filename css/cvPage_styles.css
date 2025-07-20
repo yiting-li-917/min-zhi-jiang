@@ -113,7 +113,7 @@ p {
 }
 /* Download PDF button */
 .download-button {
-    background-color: #496246;
+    background-color: #BB6830;
     vertical-align: baseline; /* 或 baseline/top，根据需要调整 */
     position: relative;
     top: -1px;  /* 上移 2 像素，可根据需求微调 */
@@ -165,7 +165,7 @@ p {
     padding: 8px 8px;
     border-radius: 22px;
     text-decoration: none;
-    background-color: #496246;
+    background-color: #BB6830;
     color: white;
     font-weight: 500;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
@@ -173,7 +173,7 @@ p {
 }
 .back-button:hover {
     background-color: #dfeae9;
-    color: #496246;
+    color: #BB6830;
     font-weight: 500;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
     transform: scale(1.05);
