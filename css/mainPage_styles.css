@@ -18,7 +18,7 @@ body, html {
   text-align: center;
   padding: 34px; /* 2rem = 32px */
   box-sizing: border-box;
-  transform: translateY(-30px); /* move everything up about 30px */
+  transform: translateY(-50px); /* move everything up about 30px */
 }
 /* Min-Zhi Jiang */
 header h1 {
