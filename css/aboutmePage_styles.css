@@ -81,21 +81,21 @@ header h2 {
 }
 .edu-item h4,
 .work-item h4 {
-    font-size: 14px;
+    font-size: 18px;
     margin: 5px 0;
     font-weight: 600;
 }
 .date {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
 }
 .degree {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
     color:#BB6830;
 }
 .job {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -111,7 +111,7 @@ header h2 {
 }
 .skill-item p {
     margin: 0;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.3;
 }
 
