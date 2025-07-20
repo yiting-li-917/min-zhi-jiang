@@ -213,7 +213,7 @@ footer {
     }
 
     section h3 {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 
@@ -221,17 +221,17 @@ footer {
         font-size: 14px;
     }
     .date {
-    font-size: 14px;
+    font-size: 16px;
     }
     .degree {
-        font-size: 14px;
+        font-size: 16px;
     }
     .job {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .skill-item p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .back-container {
