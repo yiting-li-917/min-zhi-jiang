@@ -2,19 +2,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('../images/mainBG2.jpg') no-repeat center center fixed;
-    background-size: cover;
     color: #333;
+    background: linear-gradient(135deg, #F8D794, #BB6830);
+    background-attachment: fixed;
     animation: fadeIn 1s ease-in-out;
 }
 
 .container {
     max-width: 900px;
     margin: 50px auto;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    padding: 0 15px;
     animation: slideUp 0.8s ease-out;
 }
 
@@ -63,16 +60,23 @@ header h2 {
     transform: scale(1.05);
 }
 
-section {
+/* 区块样式 */
+.block {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     margin-bottom: 30px;
 }
-section h3 {
+
+.block h3 {
     font-size: 1.6rem;
     border-bottom: 2px solid #BB6830;
     padding-bottom: 5px;
     margin-bottom: 15px;
     color: #BB6830;
 }
+
 .item {
     margin-bottom: 20px;
 }
@@ -124,7 +128,6 @@ footer {
 @media (max-width: 768px) {
     .container {
         margin: 20px;
-        padding: 15px;
     }
     header h1 {
         font-size: 2rem;
@@ -136,7 +139,7 @@ footer {
         padding: 6px 12px;
         font-size: 12px;
     }
-    section h3 {
+    .block h3 {
         font-size: 1.4rem;
     }
     .item h4 {
