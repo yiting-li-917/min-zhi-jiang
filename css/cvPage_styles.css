@@ -125,8 +125,8 @@ p {
     transition: background 0.3s;
 }
 .download-button:hover {
-    background-color: #97a78c;
-    color: #496246;
+    background-color: #F8D794;
+    color: #BB6830;
 }
 .publications .download-button {
     padding: 3px 8px;
