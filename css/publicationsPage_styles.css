@@ -29,8 +29,9 @@ a[href^="tel"] {
 /* --------------------- font first! -------------------------- */
 /* header name */
 h1 {
+    margin: 20px auto 10px auto;
+    color: #BB6830;
     font-weight: 600;
-    margin-bottom: 10px;
 }
 /* section name */
 h2 {
