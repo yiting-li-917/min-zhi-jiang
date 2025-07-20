@@ -73,8 +73,8 @@ header p {
 }
 
 .buttons a:active {
-  background-color: #dfeae9;
-  color: #496246;
+  background-color: #F8D794;
+  color: #BB6830;
   transform: scale(0.95); /* 点击时轻微缩小反馈 */
 }
 
