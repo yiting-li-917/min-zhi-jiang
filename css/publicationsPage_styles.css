@@ -145,7 +145,7 @@ footer {
         margin: 4px; /* 增加间距防止拥挤 */
     }
     .back-button {
-        position: fixed
+        position: fixed;
         left: 50%;
         transform: translateX(-50%);
         bottom: 10px;
