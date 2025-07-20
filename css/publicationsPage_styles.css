@@ -76,19 +76,19 @@ h2 {
 }
 .back-button {
     display: inline-block;
-    padding: 8px 8px;
+    padding: 8px 10px;
     border-radius: 22px;
     text-decoration: none;
-    background-color: #BB6830;
-    color: #F8D794;
-    font-weight: 600;
+    background-color: #F8D794;
+    color: #BB6830;
+    font-weight: 550;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
     transition: background 0.3s, transform 0.3s;
 }
 .back-button:hover {
-    background-color: #F8D794;
-    color: #BB6830;
-    font-weight: 600;
+    background-color: #BB6830;
+    color: #F8D794;
+    font-weight: 550;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
     transform: scale(1.05);
 }
