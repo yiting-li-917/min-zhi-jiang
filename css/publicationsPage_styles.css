@@ -150,7 +150,7 @@ footer {
         transform: translateX(-50%);
         bottom: 10px;
         padding: 8px 8px;
-        font-size: 12px;
+        font-size: 14px;
         z-index: 1000;
     .footer {
         position: static;  /* 让footer变为文档流的一部分 */
@@ -158,6 +158,6 @@ footer {
         left: auto !important;
         right: auto !important;
         font-size: 8px;
-        margin-top: 20px;  /* 给footer和上面内容一些间距 */
+        margin-top: 10px;  /* 给footer和上面内容一些间距 */
       }
 }
