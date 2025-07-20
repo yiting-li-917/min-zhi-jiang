@@ -49,7 +49,8 @@ header h2 {
 }
 
 /* 区块样式 */
-.education .work {
+.education,
+.work {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -66,10 +67,12 @@ header h2 {
     color: #BB6830;
 }
 
-.edu-item {
+.edu-item,
+.work-item {
     margin-bottom: 20px;
 }
-.edu-item h4 {
+.edu-item h4,
+.work-item {
     font-size: 1.1rem;
     margin: 5px 0;
     font-weight: 600;
