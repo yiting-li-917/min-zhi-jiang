@@ -23,9 +23,10 @@ header h1 {
     color: #BB6830;
 }
 header h2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 10px
 }
 /* 默认按钮样式 */
 .contact-buttons {
