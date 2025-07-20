@@ -15,7 +15,7 @@ a[href^="tel"] {
 }
 
 /* Projects & conference layout */
-.projects-conference {
+.projects-conferences {
     display: flex;
     gap: 20px;
     padding: 5px;
@@ -31,7 +31,7 @@ a[href^="tel"] {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.conference {
+.conferences {
     flex: 1; /* 占比1 */
     background: rgba(255,255,255,0.7);
     padding: 20px;
