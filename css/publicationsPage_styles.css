@@ -131,6 +131,10 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     .publications {
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.1);
+    }
+    .publications {
         flex-direction: column;
         flex: 1 1 100%;
         padding: 5px;
