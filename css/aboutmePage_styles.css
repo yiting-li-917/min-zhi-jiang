@@ -64,7 +64,8 @@ header h2 {
 }
 
 .education h3,
-.work h3 {
+.work h3,
+.skills h3 {
     font-size: 24px;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -96,7 +97,7 @@ header h2 {
 
 /* Skill Block (Matches Education & Work Experience style) */
 .skill-item {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .skill-item strong {
     display: block;
