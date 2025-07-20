@@ -112,6 +112,7 @@ footer {
     line-height: 1.1;
   }
   .buttons a {
+    flex-direction: column;
     padding: 10px 20px;
     margin: 20px 8px;
     font-size: 14px;
