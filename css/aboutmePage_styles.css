@@ -203,15 +203,16 @@ footer {
     }
 
     section h3 {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
+        margin-bottom: 10px;
     }
 
     h4 {
-        font-size: 0.95rem;
+        font-size: 0.8rem;
     }
 
     .skill-item p {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .back-container {
