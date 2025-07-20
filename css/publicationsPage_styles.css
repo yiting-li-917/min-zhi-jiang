@@ -58,18 +58,18 @@ h1, h2 {
 /* ------------------ Publications layout ----------------------- */
 /* publication, looks like citation */
 .publication-item {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
     margin-top: 20px;
 }
 /* Back button */
 .back-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center; /* 容器居中对齐 */
 }
 .back-button {
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 20px;
     padding: 8px 8px;
     border-radius: 22px;
     text-decoration: none;
