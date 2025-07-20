@@ -64,8 +64,9 @@ h1, h2 {
 }
 /* Back button */
 .back-container {
-    margin-top: 0px;
-    margin-bottom: 50px;
+    position: fixed;
+    top: 100px;
+    right: 50px;
     text-align: center; /* 容器居中对齐 */
 }
 .back-button {
