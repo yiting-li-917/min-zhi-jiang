@@ -34,14 +34,14 @@ a[href^="tel"] {
 .projects { flex: 1.5; }
 .conferences { flex: 1; }
 
-/* Titles */
+/* section title */
 h2 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
     color: #BB6830;
 }
-
+/* project period */
 h3 {
     color: #BB6830;
     font-size: 18px;
@@ -49,7 +49,7 @@ h3 {
     font-style: italic;
     margin: 20px 0 5px 0;
 }
-
+/* project title */
 h4 {
     font-size: 16px;
     font-weight: 600;
@@ -78,7 +78,7 @@ h4 .details-button:hover {
     color: #fff;
 }
 
-/* Paragraphs */
+/* projects Paragraphs */
 p {
     font-size: 14px;
     margin: 4px 0;
