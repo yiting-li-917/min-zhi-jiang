@@ -41,7 +41,7 @@ h2 {
 }
 /* working or published paper */
 h3 {
-    color: #BB6830;
+    color: #A95C29;
     font-size: 22px;
     font-weight: 500;
     margin: 20px auto 5px auto;
@@ -153,6 +153,9 @@ footer {
         background: rgba(255,255,255,0.6);
         border-radius: 8px;
         margin: 10px 1px 5px 1px;
+    }
+    .h3 {
+        font-size: 16px;
     }
     .publication-item {
         font-size: 15px;
