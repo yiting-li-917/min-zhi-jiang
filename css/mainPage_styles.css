@@ -18,7 +18,9 @@ body, html {
   text-align: center;
   padding: 34px; /* 2rem = 32px */
   box-sizing: border-box;
-  transform: translateY(-50px); /* move everything up about 30px */
+}
+.content-wrapper {
+  transform: translateY(-30px); /* 只上移主要内容 */
 }
 /* Min-Zhi Jiang */
 header h1 {
@@ -93,9 +95,11 @@ footer {
 
 /* phone display */
 @media (max-width: 768px) {
+  .content-wrapper {
+    transform: translateY(-30px); /* 只上移主要内容 */
+  }
   .container {
     padding: 14px;
-    transform: translateY(-50px); /* 手机端整体上移30px */
   }
   header h1 {
     font-size: 36px;
