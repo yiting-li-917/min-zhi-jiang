@@ -54,15 +54,15 @@ header h2 {
     background: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 5px 20px 5px 20px;
     margin-bottom: 30px;
 }
 
 .education h3,
 .work h3 {
-    font-size: 28px;
+    font-size: 24px;
     padding-bottom: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .edu-item,
@@ -71,14 +71,16 @@ header h2 {
 }
 .edu-item h4,
 .work-item {
-    font-size: 1.1rem;
+    font-size: 18px;
     margin: 5px 0;
     font-weight: 600;
 }
 .date {
+    font-size: 18px;
     font-weight: 500;
 }
 .degree {
+    font-size: 18px;
     font-weight: 500;
     color:#BB6830;
 }
