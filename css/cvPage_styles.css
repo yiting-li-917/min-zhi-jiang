@@ -9,6 +9,14 @@ body, html {
     color: #333;
 }
 
+/* 禁用数字链接样式 */
+a[href^="tel"] {
+    text-decoration: none;
+    color: inherit;
+    pointer-events: none;
+    cursor: default;
+}
+
 .cv-container {
     background-color: rgba(255,255,255,0.5); /* 半透明白色背景 */
     max-width: 1100px;
@@ -24,93 +32,7 @@ h1, h2 {
     font-weight: 600;
     margin-bottom: 10px;
 }
-/* project period */
-h3 {
-    color: #496246;
-    font-size: 18px;
-    font-weight: 600;
-    font-style: italic;   /* 斜体 */
-    margin-bottom: 5px;
-}
-/* project name + details button */
-h4 {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 2px;
-    display: inline; /* 或 block，但 a 会自动跟在后面 */
-}
-/* ---------------- project details button ------------------ */
-h4 .details-button {
-    display: inline-block;   /* 让按钮在标题后面 */
-    margin-left: 8px;        /* 与标题保持一点间距 */
-    vertical-align: baseline; /* 或 baseline/top，根据需要调整 */
-    position: relative;
-    top: -2px;  /* 上移 2 像素，可根据需求微调 */
-    font-weight: 400;
-    font-size: 0.45rem;         /* 按钮字体相对小些 */
-    padding: 3px 6px;
-    border-radius: 15px;
-    background-color: #496246;
-    color: F8D794;
-    border: none;
-    text-decoration: none;
-    transition: background 0.3s;
-}
 
-h4 .details-button:hover {
-    background-color: #F8D794;
-    color: #496246;
-}
-
-/* project bullet point */
-p::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: inherit;     /* 使用默认文字颜色 */
-    font-weight: bold;
-}
-p {
-    font-size: 14px;
-    margin: 4px 0;   /* 控制段落之间的间距 */
-    line-height: 1.2;     /* 控制行间距（1.2倍字体高度） */
-    text-indent: -2px;      /* 让 '•' 悬挂缩进 */
-    padding-left: 15px;      /* 内容与左侧有空隙 */
-    position: relative;
-}
-
-/* ---------------------- download cv buttons, Link buttons (ORCID, Google Scholar) ---------------------- */
-.download-cv,
-.link-button {
-    display: inline-block;
-    margin: 5px 10px;
-    padding: 8px 18px;
-    border-radius: 30px; /* 更圆的按钮 */
-    background: #496246; 
-    color: F8D794;
-    font-size: 12px;
-    font-weight: 550;
-    text-decoration: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
-    transition: background 0.3s;
-    -webkit-tap-highlight-color: transparent; /* 移动端去除点击高亮 */
-}
-
-.download-cv:hover,
-.link-button:hover {
-    background: #F8D794;
-    color: #496246;
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 悬停更立体 */
-}
-/* doi link*/
-.doi-link {
-    color: #1a0dab;
-    text-decoration: underline;
-}
-.doi-link:hover {
-    color: #0c0080;
-}
 /* Download PDF button */
 .download-button {
     background-color: #BB6830;
@@ -133,31 +55,13 @@ p {
     font-size: 0.55rem;
 }
 
-/* ------------------ Projects & Publications layout ----------------------- */
-.projects-publications {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-.projects-publications .cv-section {
-    flex: 1 1 45%;
-    box-sizing: border-box;
-    background: rgba(255,255,255,0.8);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-/* let project details button next to project name */
-.project-header {
-  display: flex;
-  align-items: center;    /* 垂直居中 */
-  gap: 10px;              /* h4 和按钮之间的间距 */
-}
+/* ------------------ Publications layout ----------------------- */
+/* publication, looks like citation */
 .publication-item {
+    font-size: 15px;
+    line-height: 1.2;
     margin-top: 20px;
 }
-
 /* Back button */
 .back-container {
     text-align: center; /* 容器居中对齐 */
