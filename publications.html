@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cvPage_styles.css">
+</head>
+<body>
+  <div class="cv-container">
+      <div class="publications">
+        <h2>Publications</h2>
+        <!-- first author publications -->
+        <div class="publication-item">
+        1. <strong>Yiting Li</strong>, Yusheng Zhao, Michael J Kleeman. "Formaldehyde exposure racial disparities in Southeast Texas." <em>Environmental Science & Technology</em> 58, no. 10 (2024): 4680-4690. 
+        <br>
+        <a href="https://doi.org/10.1021/acs.est.3c02282" class="doi-link">https://doi.org/10.1021/acs.est.3c02282</a>
+        <a href="pdf/yiting_texas_hcho_ej_EST.pdf" class="download-button" download>PDF</a>
+        </div>
+    
+        <div class="publication-item">
+        2. <strong>Yiting Li</strong>, Guihua Wang, Colin Murphy, Michael J Kleeman. "Modeling expected air quality impacts of Oregon's proposed expanded clean fuels program." <em>Atmospheric Environment</em> 296 (2023): 119582. 
+        <br>
+        <a href="https://doi.org/10.1016/j.atmosenv.2023.119582" class="doi-link">https://doi.org/10.1016/j.atmosenv.2023.119582</a>
+        <a href="pdf/yiting_oregon_mobile_energy_2035_AE.pdf" class="download-button" download>PDF</a>
+        </div>
+    
+        <div class="publication-item">
+        3. <strong>Yiting Li</strong>, Anikender Kumar, Yin Li, Michael J Kleeman. "Adoption of low-carbon fuels reduces race/ethnicity disparities in air pollution exposure in California." <em>Science of The Total Environment</em> 834 (2022): 155230. 
+        <br>
+        <a href="https://doi.org/10.1016/j.scitotenv.2022.155230" class="doi-link">https://doi.org/10.1016/j.scitotenv.2022.155230</a>
+        <a href="pdf/yiting_epa2050_STOTEN.pdf" class="download-button" download>PDF</a>
+        </div>
+        
+    </div>
 
+    <a href="index.html" class="back-button">Back to Home</a>
+  </div>
+
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+
+  <footer>
+      &copy; <span id="year"></span> Yiting Li. All rights reserved.
+  </footer>
+
+  <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      window.onscroll = function() { scrollFunction(); };
+      function scrollFunction() {
+          const btn = document.getElementById("scrollTopBtn");
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+              btn.style.display = "block";
+          } else {
+              btn.style.display = "none";
+          }
+      }
+      function scrollToTop() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+  </script>
+</body>
+</html>
