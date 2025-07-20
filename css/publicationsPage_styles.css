@@ -148,7 +148,7 @@ footer {
         position: fixed;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 10px;
+        bottom: 20px;
         padding: 8px 8px;
         font-size: 14px;
         z-index: 1000;
