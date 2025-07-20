@@ -136,7 +136,7 @@ footer {
         background: rgba(0,0,0,0.1); /* black background, transparence 0.2 */
         border-radius: 8px;
         padding: 0px
-        margin: 5px 0px 20px 0px;
+        margin: 5px 0px 15px 0px;
     }
     .publications {
         flex-direction: column;
