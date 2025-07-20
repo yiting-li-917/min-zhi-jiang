@@ -95,6 +95,7 @@ footer {
 @media (max-width: 768px) {
   .container {
     padding: 14px;
+    transform: translateY(-50px); /* 手机端整体上移30px */
   }
   header h1 {
     font-size: 36px;
