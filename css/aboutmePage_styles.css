@@ -93,6 +93,22 @@ header h2 {
     font-weight: 500;
 }
 
+/* Skill Block (Matches Education & Work Experience style) */
+.skill-item {
+    margin-bottom: 15px;
+}
+.skill-item strong {
+    display: block;
+    font-weight: 700;
+    color: #BB6830;
+    margin-bottom: 5px;
+}
+.skill-item p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
 /* Back to Home Button */
 .back-container {
     width: 100%;
