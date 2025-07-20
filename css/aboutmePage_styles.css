@@ -2,9 +2,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background: url('../images/mainBG2.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
-    background: linear-gradient(135deg, #F8D794, #BB6830);
-    background-attachment: fixed;
     animation: fadeIn 1s ease-in-out;
 }
 
