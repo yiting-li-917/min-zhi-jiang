@@ -117,7 +117,7 @@ h2 {
 }
 
 footer {
-    position: fixed;
+    position: static;  /* 让footer变为文档流的一部分 */
     bottom: 0;
     width: 100%;
     padding: 8px 0;
