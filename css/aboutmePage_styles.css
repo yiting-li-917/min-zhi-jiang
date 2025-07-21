@@ -194,30 +194,22 @@ footer {
         line-height: 1.0;
     }
 /* button */
+    .contact-buttons .btn-text {
+        display: none; /* 隐藏文字 */
+    }
+    .contact-buttons a i {
+        margin-right: 0;
+    }
     .contact-buttons {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); /* 四列平分 */
-        gap: 6px;
-        justify-items: center;
-    }
-
-    .contact-btn {
-        padding: 8px 0;
-        border-radius: 10px;
-        text-align: center;
-        font-size: 16px;  /* 图标大小 */
-        width: 100%;
         display: flex;
-        align-items: center;
         justify-content: center;
+        gap: 8px; /* 调整间距更均衡 */
+        flex-wrap: nowrap;
     }
-
-    .contact-btn .btn-text {
-        display: none !important;  /* 强制隐藏 */
-    }
-
-    .contact-btn i {
-        margin-right: 0 !important;
+    .contact-buttons a {
+        font-size: 14px; /* 稍微大一些便于点击 */
+        padding: 6px 10px;
+        margin: 0 2px;
     }
 
 /*----- */
