@@ -19,7 +19,7 @@
             <h2>Department of Biostatistics</h2>
             <h2>Johns Hopkins Bloomberg School of Public Health</h2>
             <div class="contact-buttons">
-                <a href="pdf/LiYitingResume_latest.pdf" download>
+                <a href="pdf/LiYitingResume_latest.pdf" class="download-cv" download>
                     <i class="fas fa-download"></i><span class="btn-text"> Resume</span>
                 </a>
                 
@@ -126,6 +126,31 @@
           function scrollToTop() {
               window.scrollTo({ top: 0, behavior: 'smooth' });
           }
+        // check if resume pdf exist, if not, do not download, but pop up a window
+        document.addEventListener("DOMContentLoaded", function () {
+        const cvButton = document.querySelector(".download-cv");
+        if (!cvButton) return;
+    
+        cvButton.addEventListener("click", function (event) {
+            event.preventDefault(); // 阻止默认下载行为
+    
+            const cvUrl = cvButton.getAttribute("href");
+    
+            // 检查文件是否存在
+            fetch(cvUrl, { method: "HEAD" })
+                .then(response => {
+                    if (response.ok) {
+                        // 文件存在，触发下载
+                        window.location.href = cvUrl;
+                    } else {
+                        alert("Oops, not ready yet!");
+                    }
+                })
+                .catch(() => {
+                    alert("Oops, not ready yet!");
+                });
+        });
+    });
       </script>
 </body>
 </html>
