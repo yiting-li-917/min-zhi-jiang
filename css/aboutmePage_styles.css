@@ -200,10 +200,7 @@ footer {
         gap: 6px;
         justify-content: center; /* 图标在格子中居中 */
     }
-    .contact-btn .btn-text，
-    .download-cv .btn-text {
-        display: none; /* 隐藏文字 */
-    }
+    
     .contact-btn,
     .download-cv {
         padding: 8px 0;        /* 按钮自动根据列宽拉伸 */
@@ -211,7 +208,16 @@ footer {
         font-size: 14px;       /* 图标大小 */
         width: 100%;           /* 填满单元格 */
         text-align: center;    /* 图标居中 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    .contact-btn .btn-text，
+    .download-cv .btn-text {
+        display: none; /* 隐藏文字 */
+    }
+    
     .contact-btn i {
         margin-right: 0 !important;
     }
