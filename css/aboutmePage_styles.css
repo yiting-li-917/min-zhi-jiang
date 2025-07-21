@@ -29,7 +29,8 @@ header h2 {
     margin: 8px
 }
 /* 默认按钮样式 */
-.contact-buttons {
+.contact-buttons,
+.download-cv {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,7 +38,8 @@ header h2 {
     margin-top: 15px
 }
 
-.contact-buttons a {
+.contact-buttons a,
+.download-cv a {
     text-decoration: none;
     padding: 8px 14px;
     border-radius: 20px;
@@ -49,10 +51,12 @@ header h2 {
     align-items: center;
     justify-content: center;
 }
-.contact-buttons a i {
+.contact-buttons a i,
+.download-cv a i{
     margin-right: 6px;
 }
-.contact-buttons a:hover {
+.contact-buttons a:hover,
+.download-cv a:hover {
     background-color: #F8D794;
     color: #BB6830;
     transform: scale(1.05);
