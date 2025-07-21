@@ -203,8 +203,8 @@ footer {
 
     .contact-buttons a {
         padding: 10px 0;
-        border-radius: 10px;
-        width: 100%;
+        border-radius: 25px;
+        width: 80%;
         justify-content: center;
     }
 
