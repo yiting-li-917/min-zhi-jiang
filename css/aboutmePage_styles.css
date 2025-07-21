@@ -212,6 +212,9 @@ footer {
         width: 100%;           /* 填满单元格 */
         text-align: center;    /* 图标居中 */
     }
+    .contact-btn i {
+        margin-right: 0 !important;
+    }
 
 /*----- */
     .education, .work, .skills {
