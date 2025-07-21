@@ -50,11 +50,11 @@ header h2 {
     align-items: center;
     justify-content: center;
 }
-.contact-buttons i,
+.contact-btn i,
 .download-cv i {
     margin-right: 3px;
 }
-.contact-buttons:hover,
+.contact-btn:hover,
 .download-cv:hover {
     background-color: #F8D794;
     color: #BB6830;
