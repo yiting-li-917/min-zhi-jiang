@@ -196,28 +196,26 @@ footer {
 /* button */
     .contact-buttons {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(5, 1fr); /* 四列平分 */
         gap: 6px;
-        justify-content: center; /* 图标在格子中居中 */
+        justify-items: center;
     }
-    
-    .contact-btn,
-    .download-cv {
-        padding: 8px 0;        /* 按钮自动根据列宽拉伸 */
-        border-radius: 10px;   /* 稍微圆角即可 */
-        font-size: 14px;       /* 图标大小 */
-        width: 100%;           /* 填满单元格 */
-        text-align: center;    /* 图标居中 */
+
+    .contact-btn {
+        padding: 8px 0;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 16px;  /* 图标大小 */
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .contact-btn .btn-text，
-    .download-cv .btn-text {
-        display: none; /* 隐藏文字 */
+    .contact-btn .btn-text {
+        display: none !important;  /* 强制隐藏 */
     }
-    
+
     .contact-btn i {
         margin-right: 0 !important;
     }
