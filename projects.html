@@ -131,6 +131,13 @@
       &copy; <span id="year"></span> Min-Zhi Jiang. All rights reserved.
   </footer>
 
+  <!-- Global Modal for Project Details Images -->
+  <div id="imageModal" class="modal" onclick="closeModal(event)">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" src="" alt="Project Image">
+  </div>
+
+   <!-- java --> 
   <script>
       document.getElementById('year').textContent = new Date().getFullYear();
       window.onscroll = function() { scrollFunction(); };
@@ -168,13 +175,6 @@
         };
     });
   </script>
-    
-</body>
-<!-- Global Modal for Project Details Images -->
-<div id="imageModal" class="modal" onclick="closeModal(event)">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modalImage" src="" alt="Project Image">
-</div>
     
 </html>
         
